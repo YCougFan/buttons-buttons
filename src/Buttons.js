@@ -4,6 +4,7 @@ import ReactstrapBasicButtons from './ReactstrapBasicButtons';
 import ReactstrapOutlineButtons from './ReactstrapOutlineButtons';
 import ReactstrapButtonSizes from './ReactstrapButtonSizes';
 import ReactstrapButtonstate from './ReactstrapButtonstate';
+import ReactstrapCheckedRadio from './ReactstrapCheckedRadio';
 
 export default class extends Component {
   render() {
@@ -13,7 +14,8 @@ export default class extends Component {
           <ReactstrapBasicButtons /><br/>
           <ReactstrapOutlineButtons /><br/>
           <ReactstrapButtonSizes /><br/>
-          <ReactstrapButtonstate />
+          <ReactstrapButtonstate /><br/>
+          <ReactstrapCheckedRadio />
       </Fragment>
      )
    }
