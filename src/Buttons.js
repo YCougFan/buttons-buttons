@@ -1,12 +1,15 @@
 import React, { Component, Fragment } from 'react';
 
-import ReactstrapButtons from './ReactstrapButtons';
+import ReactstrapBasicButtons from './ReactstrapBasicButtons';
+import ReactstrapOutlineButtons from './ReactstrapOutlineButtons';
 
 export default class extends Component {
   render() {
     return (
       <Fragment>
-          <ReactstrapButtons />
+          <br/>
+          <ReactstrapBasicButtons /><br/>
+          <ReactstrapOutlineButtons />
       </Fragment>
      )
    }
