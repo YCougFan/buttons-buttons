@@ -2,7 +2,8 @@ import React, { Component, Fragment } from 'react';
 
 import ReactstrapBasicButtons from './ReactstrapBasicButtons';
 import ReactstrapOutlineButtons from './ReactstrapOutlineButtons';
-import ReactButtonSizes from './ReactButtonSizes';
+import ReactstrapButtonSizes from './ReactstrapButtonSizes';
+import ReactstrapButtonstate from './ReactstrapButtonstate';
 
 export default class extends Component {
   render() {
@@ -11,7 +12,8 @@ export default class extends Component {
           <br/>
           <ReactstrapBasicButtons /><br/>
           <ReactstrapOutlineButtons /><br/>
-          <ReactButtonSizes />
+          <ReactstrapButtonSizes /><br/>
+          <ReactstrapButtonstate />
       </Fragment>
      )
    }
